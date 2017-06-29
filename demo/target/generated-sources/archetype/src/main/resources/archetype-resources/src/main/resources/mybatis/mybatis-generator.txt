@@ -1,0 +1,7 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+${symbol_pound}使用mybatis-generator生成model、mapper、sql映射文件
+mvn mybatis-generator:generate
+${symbol_pound}创建maven骨架项目
+mvn archetype:create-from-project

@@ -1,0 +1,9 @@
+com\yll\demo\service\impl\UserServiceImpl.class
+com\yll\demo\model\UserExample.class
+com\yll\demo\model\User.class
+com\yll\demo\mapper\UserMapper.class
+com\yll\demo\controller\UserController.class
+com\yll\demo\model\UserExample$Criteria.class
+com\yll\demo\service\IUserService.class
+com\yll\demo\model\UserExample$GeneratedCriteria.class
+com\yll\demo\model\UserExample$Criterion.class
