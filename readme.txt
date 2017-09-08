@@ -26,4 +26,5 @@ META-INF/maven/demo-metadata.xml
         <include>**/*.properties</include>-->
       </includes>
 </fileSet>
+PS:修改原生项目、骨架项目后，不会生成多余文件，不再需要修改archetype的配置
 2.使用骨架项目创建的项目，.java文件出现红色图标J，这是由于项目未把该文件路径指定为源码路径，在project Structure的Modules中将该文件路径指定为源码路径即可，下面是idea的官方资料https://www.jetbrains.com/help/idea/configuring-content-roots.html
