@@ -26,11 +26,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="archetype-archetype" />
+        <module name="demo-archetype" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="archetype-archetype" target="1.5" />
+      <module name="demo-archetype" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

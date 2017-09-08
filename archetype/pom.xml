@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.yll</groupId>
-  <artifactId>archetype-archetype</artifactId>
+  <artifactId>web-archetype</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>maven-archetype</packaging>
 
-  <name>archetype-archetype</name>
+  <name>demo-archetype</name>
 
   <build>
     <extensions>

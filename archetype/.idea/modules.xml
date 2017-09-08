@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/archetype-archetype.iml" filepath="$PROJECT_DIR$/archetype-archetype.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-archetype.iml" filepath="$PROJECT_DIR$/demo-archetype.iml" />
     </modules>
   </component>
 </project>
