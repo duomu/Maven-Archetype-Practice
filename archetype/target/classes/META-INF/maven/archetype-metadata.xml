@@ -12,13 +12,9 @@
     <fileSet filtered="true" encoding="UTF-8">
       <directory>src/main/resources</directory>
       <includes>
-        <!--此处改写，避免生成不必要的文件-->
-        <include>mybatis/**/*.*</include>
-        <include>spring/**/*.*</include>
-        <include>*.*</include>
-        <!--<include>**/*.txt</include>
+        <include>**/*.txt</include>
         <include>**/*.xml</include>
-        <include>**/*.properties</include>-->
+        <include>**/*.properties</include>
       </includes>
     </fileSet>
     <fileSet filtered="true" encoding="UTF-8">
