@@ -9,7 +9,8 @@ demo-resources/pom.xml
 META-INF/maven/demo-metadata.xml
 
 
-2017-09-08更新：解决生成多余文件的问题
+2017-09-08更新：
+1.解决生成多余文件的问题
 对项目demo执行mvn archetype:create-from-project，生成该项目的骨架项目archetype后，需要修改一下archetype的配置：
 将src/main/resources/META-INF/maven/archetype-metadata.xml修改如下，指定要包含的文件路径
 
@@ -25,3 +26,4 @@ META-INF/maven/demo-metadata.xml
         <include>**/*.properties</include>-->
       </includes>
 </fileSet>
+2.使用骨架项目创建的项目，.java文件出现红色图标J，这是由于项目未把该文件路径指定为源码路径，在project Structure的Modules中将该文件路径指定为源码路径即可，下面是idea的官方资料https://www.jetbrains.com/help/idea/configuring-content-roots.html
